@@ -1,0 +1,220 @@
+.container {
+
+border:1px solid black;
+width:400px;
+height:800px;
+grid-template-columns: 100%;
+grid-template-rows: 10% 25% 60% 5%;
+display:grid;
+grid-template-areas:
+"row1"
+"row2"
+"row3"
+"row4";
+
+
+}
+
+
+.top_logo {
+
+grid-area: row1;
+display: grid;
+
+grid-template-columns: 75% 25%;
+grid-template-areas:
+"logoname info";
+
+
+
+}
+
+.logo {
+
+grid-area: logoname;
+
+}
+
+.logo img {
+
+  margin: 0;
+  height: 200px;
+  position: absolute;
+  top: -58px;
+  padding: 0;
+
+}
+
+.info {
+
+grid-area: info;
+
+}
+
+
+.background {
+background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+background-repeat: no-repeat;
+background-size: cover;
+grid-area:row2;
+opacity: 0.6;
+
+}
+
+.profile_content {
+
+grid-area:row3;
+
+}
+
+.navigation {
+background-color:#A0C900;
+grid-area:row4;
+
+}
+
+
+.profile {
+
+  position: absolute;
+  top: 206px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  left: 145px;
+
+}
+
+.profile_face {
+width:125px;
+border-radius: 50%;
+
+
+}
+
+
+
+.profile_content {
+
+grid-area:row3;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 20% 5% 5% 20% 20%;
+grid-template-areas:
+"proRow1"
+"proRow2"
+"proRow3"
+"proRow4"
+"proRow5";
+}
+
+
+
+.name {
+
+  margin-left: auto;
+  text-align: center;
+  grid-area: proRow1;
+  margin-top: 25px;
+  display: block;
+  margin-right: auto;
+
+}
+
+
+
+.name h6:nth-child(1) {
+color:black;
+font-size:20px;
+margin-right:5px;
+float:left;
+}
+
+.name h6:nth-child(2) {
+  float:left;
+color:green;
+font-size:20px;
+
+}
+
+
+.title {
+
+  text-align: center;
+grid-area: proRow2;
+
+}
+
+.title h6{
+
+    display: inline;
+}
+
+.area {
+    display: inline;
+  text-align: center;
+grid-area: proRow3;
+
+}
+
+.area h6 {
+
+  display: inline;
+
+}
+
+.quicklinks {
+
+grid-area: proRow4;
+
+}
+
+
+.quicklinks ul {
+
+
+  margin-left: auto;
+/* left: 59%; */
+/* position: relative; */
+/* transform: translate(-50%, -50%); */
+/* transform: translateX(10%); */
+margin-right: auto;
+width: 73%;
+display: block;
+}
+
+.quicklinks ul li {
+
+  display: inline;
+
+}
+
+.quicklinks i {
+
+  background-color: #A0C900;
+  color: white;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 8px;
+
+
+}
+
+
+.sociallinks {
+
+grid-area: proRow5;
+
+}
+
+
+.sociallinks ul li {
+
+display: inline;
+
+}
+
+.sociallinks i {
+
+color:#5a5050;
+
+}
