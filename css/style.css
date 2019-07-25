@@ -241,18 +241,19 @@ color:#5a5050;
   }
 
   .container {
-  background-color:white;
-  border:1px solid white;
-  width:400px;
-  height:800px;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 25% 60% 5%;
-  display:grid;
-  grid-template-areas:
-  "row1"
-  "row2"
-  "row3"
-  "row4";
+    background-color: white;
+    border: 1px solid white;
+    width: 400px;
+    height: 712px;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 30% 55% 5%;
+    display: grid;
+    grid-template-areas:
+"row1"
+ "row2"
+ "row3"
+ "row4";
+
 
 
   }
