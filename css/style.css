@@ -291,7 +291,7 @@ display: inline;
   background-color:white;
   border:1px solid white;
   width:400px;
-  height:700px;
+  height:712px;
   grid-template-columns: 100%;
   grid-template-rows: 10% 25% 60% 5%;
   display:grid;
@@ -366,11 +366,10 @@ display: inline;
   .profile {
 
     position: absolute;
-    top: 206px;
+    top: 175px;
     /* margin-left: auto; */
     /* margin-right: auto; */
     left: 145px;
-
   }
 
   .profile_face {
