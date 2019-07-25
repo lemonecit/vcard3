@@ -1,5 +1,13 @@
-.container {
 
+body {
+margin:0;
+padding:0;
+background-color:black;
+
+}
+
+.container {
+background-color:white;
 border:1px solid black;
 width:400px;
 height:800px;
