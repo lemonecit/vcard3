@@ -1,4 +1,4 @@
-
+@media (min-width: 1281px) {
 body {
 margin:0;
 padding:0;
@@ -270,6 +270,10 @@ display: inline;
 
 }
 
+
+
+
+}
 
 @media (min-width: 360px) and (max-width: 480px) {
 {
