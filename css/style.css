@@ -138,8 +138,9 @@ float:left;
 }
 
 .name h6:nth-child(2) {
+  text-transform: uppercase;
   float:left;
-color:green;
+color:#A0C900;
 font-size:20px;
 
 }
@@ -153,7 +154,8 @@ grid-area: proRow2;
 }
 
 .title h6{
-
+  font-family: monospace;
+  font-size:15px;
     display: inline;
 }
 
@@ -165,13 +167,17 @@ grid-area: proRow3;
 }
 
 .area h6 {
-
+  font-weight: 200px;
+  font-family: monospace;
+  font-size:15px;
   display: inline;
 
 }
 
 .quicklinks {
-
+  display: flex;
+     justify-content: center; /* center ul horizontally */
+     align-items: center; /* center ul vertically (if necessary) */ ;
 grid-area: proRow4;
 
 }
@@ -179,14 +185,9 @@ grid-area: proRow4;
 
 .quicklinks ul {
 
+margin:0;
+padding:0;
 
-  margin-left: auto;
-/* left: 59%; */
-/* position: relative; */
-/* transform: translate(-50%, -50%); */
-/* transform: translateX(10%); */
-margin-right: auto;
-width: 73%;
 display: block;
 }
 
@@ -209,11 +210,18 @@ display: block;
 
 
 .sociallinks {
-
+  display: flex;
+     justify-content: center; /* center ul horizontally */
+     align-items: center; /* center ul vertically (if necessary) */
 grid-area: proRow5;
 
 }
 
+.sociallinks ul {
+
+  margin:0;
+  padding:0;
+}
 
 .sociallinks ul li {
 
@@ -222,13 +230,48 @@ display: inline;
 }
 
 .sociallinks i {
-
+letter-spacing: 1em;
 color:#5a5050;
 
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+.navigation {
+
+  display: flex;
+     justify-content: center; /* center ul horizontally */
+     align-items: center; /* center ul vertically (if necessary) */ 
+
+}
+
+.navigation ul li {
+
+display: inline;
+
+}
+
+.navigation ul {
+
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 158px;
+
+}
+
+.navigation i {
+
+  color: white;
+
+  padding: 8px;
+  font-size: 20px;
+
+
+}
+
+
+@media (min-width: 360px) and (max-width: 480px) {
 {
 
 
