@@ -670,34 +670,7 @@ display: inline;
 
   }
 
-  ul.sLink li {
-      line-height: 65px;
-      display: block;
 
-  }
-
-
-  ul.sLink li:hover {
-  background-color:darkgrey;
-
-  }
-
-
-
-
-.slink a {
-
-text-decoration: none;
-
-}
-
-
-
-  .sLink span {
-  font-size:30px;
-  color:white;
-
-  }
   .container_overlay i {
     font-size:64px;
     color: white;
@@ -731,7 +704,39 @@ text-decoration: none;
 
   }
 
-  .closeWindow {
+
+
+  .container_overlay ul.sLink li {
+      line-height: 65px;
+      display: block;
+
+  }
+
+
+.container_overlay  ul.sLink li:hover {
+  background-color:darkgrey;
+
+  }
+
+
+
+
+.container_overlay .slink a {
+
+text-decoration: none;
+
+}
+
+
+
+  .container_overlay .sLink span {
+  font-size:30px;
+  color:white;
+
+  }
+
+
+.closeWindow {
 
   float:left;
 
