@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -18,10 +18,11 @@
           <img src="https://www.catanfusion.com/images/logo-ex-5.png" alt="">
         </div>
         <div class="lang_selection">
-          <select id="lang" name="lang" onchange="location = this.value;">
+          <select id="lang" onchange="location = this.value;" name="lang" >
                         <option></option>
-            <option value="../vcard3/">en</option>
-            <option value="../vcard3/he/">עב</option>
+            <option value="../vcard3/index.html">en</option>
+            <option value="../vcard3/he/index.html">עב</option>
+
 
           </select>
         </div>
@@ -88,7 +89,7 @@
 
     </div>
 
-    <script>
+    <!-- <script>
         $(function(){
           // bind change event to select
           $('#lang').on('change', function () {
@@ -99,7 +100,16 @@
               return false;
           });
         });
-    </script>
+    </script> -->
+
+    <!-- <script>
+        document.getElementById("lang").onchange = function() {
+            if (this.selectedIndex!==0) {
+                window.location.href = this.value;
+            }
+        };
+    </script> -->
+
 
   </body>
 </html>

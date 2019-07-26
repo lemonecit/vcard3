@@ -54,7 +54,7 @@ grid-area: logoname;
 }
 
 .lang_selection {
-
+float:right;
 grid-area: info;
 
 }
@@ -333,11 +333,13 @@ display: inline;
 
   }
 
-  .info {
 
+  .lang_selection {
+  float:right;
   grid-area: info;
 
   }
+
 
 
   .background {
