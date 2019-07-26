@@ -10,13 +10,13 @@ window.onload= function (){
   });
 
 
-  if (typeof close_Window !== 'undefined') {
 
-      document.getElementById("close_Window").addEventListener("click", function(){
+
+      document.getElementById("closeWindow").addEventListener("click", function(){
         document.getElementsByClassName('container_overlay')[0].style.visibility = 'hidden';
 
       });
-  }
+  
 
 
 
