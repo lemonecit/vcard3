@@ -1,6 +1,6 @@
 
 window.onload= function (){
-  var socialPro = document.getElementsByClassName("this_socialLinks");
+  // var socialPro = document.getElementsByClassName("this_socialLinks");
 
 
 
