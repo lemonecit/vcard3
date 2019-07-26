@@ -516,11 +516,7 @@ display: inline;
 
   }
 
-  .navigation {
-  background-color:#A0C900;
-  grid-area:row4;
 
-  }
 
 
   .profile {
@@ -741,8 +737,10 @@ display: inline;
 
 
 
-  .navigation {
 
+  .navigation {
+    background-color:#A0C900;
+    grid-area:row4;
     display: flex;
        justify-content: center; /* center ul horizontally */
        align-items: center; /* center ul vertically (if necessary) */
@@ -761,7 +759,7 @@ display: inline;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 158px;
+    width: 210px;
 
   }
 
