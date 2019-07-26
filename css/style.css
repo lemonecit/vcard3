@@ -340,6 +340,18 @@ display: inline;
 
   }
 
+  .lang_selection img {
+
+    height: 45px;
+    position: relative;
+    width: 35px;
+    /* margin-right: 113px; */
+    /* right: 0px; */
+    top: 16px;
+
+
+  }
+
 
 
   .background {
