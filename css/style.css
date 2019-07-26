@@ -1,4 +1,79 @@
 @media (min-width: 1281px) {
+
+
+
+  ul.sLink li {
+      line-height: 65px;
+      display: block;
+
+  }
+
+
+  ul.sLink li:hover {
+    display: block;
+  background-color:darkgrey;
+
+  }
+
+
+  .sLink span {
+  font-size:30px;
+  color:white;
+
+  }
+  .container_overlay i {
+    font-size:64px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+  background:none !important;
+
+  }
+
+  .sLink a{
+  text-decoration: none;
+
+
+
+  }
+
+
+  .container_overlay {
+
+  visibility: hidden;
+  position: absolute;
+  margin:0;
+  padding:0;
+  background-color:#000000b0;
+  width:100%;
+  height:100%;
+  z-index: 9999;
+
+  }
+
+
+  .container_overlay .sociallinks {
+    text-align: center;
+  display: block;
+  float:right;
+  width:250px;
+  height:100%;
+
+  }
+
+  .closeWindow {
+
+  float:left;
+
+  }
+
+
+
+
+
+
+
 body {
 margin:0;
 padding:0;
@@ -19,6 +94,14 @@ grid-template-areas:
 "row2"
 "row3"
 "row4";
+
+
+margin: 0;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+
 
 
 }
@@ -44,7 +127,7 @@ grid-area: logoname;
 
 }
 
-/* .logo img {
+.logo img {
 
   margin: 0;
   height: 200px;
@@ -52,7 +135,7 @@ grid-area: logoname;
   top: -58px;
   padding: 0;
 
-} */
+}
 
 .lang_selection {
 float:right;
@@ -241,8 +324,7 @@ display: block;
 
 }
 
-
-.sociallinks {
+.profile_content .sociallinks {
   display: flex;
      justify-content: center; /* center ul horizontally */
      align-items: center; /* center ul vertically (if necessary) */
@@ -250,19 +332,19 @@ grid-area: proRow5;
 
 }
 
-.sociallinks ul {
+.profile_content .sociallinks ul {
 
   margin:0;
   padding:0;
 }
 
-.sociallinks ul li {
+.profile_content .sociallinks ul li {
 
 display: inline;
 
 }
 
-.sociallinks i {
+.profile_content .sociallinks i {
 letter-spacing: 1em;
 color:#5a5050;
 
@@ -289,7 +371,7 @@ display: inline;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 158px;
+  width: 202px;
 
 }
 
@@ -346,7 +428,7 @@ display: inline;
 
 
 
-  }
+
 
 
 
@@ -395,7 +477,7 @@ display: inline;
   padding: 0;
 }
 
-  
+
 
 
   /* .lang_selection img {
