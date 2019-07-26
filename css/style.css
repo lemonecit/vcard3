@@ -706,7 +706,7 @@ display: inline;
   }
 
 
-.container_overlay ul {
+ ul.sLink {
 
 margin:0;
 padding:0;
@@ -714,14 +714,14 @@ padding:0;
 }
 
 
-  .container_overlay ul.sLink li {
+ ul.sLink li {
       line-height: 65px;
       display: block;
 
   }
 
 
-.container_overlay  ul.sLink li:hover {
+ ul.sLink li:hover {
   background-color:darkgrey;
 
   }
@@ -729,7 +729,7 @@ padding:0;
 
 
 
-.container_overlay .slink li a {
+.slink a {
 
 text-decoration: none;
 
@@ -737,7 +737,7 @@ text-decoration: none;
 
 
 
-  .container_overlay .sLink span {
+ .sLink span {
   font-size:30px;
   color:white;
 
