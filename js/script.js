@@ -10,10 +10,14 @@ window.onload= function (){
   });
 
 
+  if (typeof close_Window !== 'undefined') {
 
-  document.getElementById("close_Window").addEventListener("click", function(){
-    document.getElementsByClassName('container_overlay')[0].style.visibility = 'hidden';
+      document.getElementById("close_Window").addEventListener("click", function(){
+        document.getElementsByClassName('container_overlay')[0].style.visibility = 'hidden';
 
-  });
+      });
+  }
+
+
 
 }
