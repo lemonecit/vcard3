@@ -685,7 +685,11 @@ display: inline;
 
 
 
+.slink a {
 
+text-decoration: none;
+
+}
 
 
 
