@@ -18,7 +18,7 @@
           <img src="https://www.catanfusion.com/images/logo-ex-5.png" alt="">
         </div>
         <div class="lang_selection">
-          <select name="lang" onchange="location = this.value;">
+          <select id="lang" name="lang" onchange="location = this.value;">
                         <option></option>
             <option value="../vcard3/">en</option>
             <option value="../vcard3/he/">עב</option>
@@ -88,7 +88,18 @@
 
     </div>
 
-
+    <script>
+        $(function(){
+          // bind change event to select
+          $('#lang').on('change', function () {
+              var url = $(this).val(); // get selected value
+              if (url) { // require a URL
+                  window.location = url; // redirect
+              }
+              return false;
+          });
+        });
+    </script>
 
   </body>
 </html>
