@@ -60,6 +60,20 @@ grid-area: info;
 }
 
 
+.lang_selection img {
+
+  height: 45px;
+  position: relative;
+  width: 35px;
+  /* margin-right: 113px; */
+  right: -40px;
+  top: 16px;
+
+
+}
+
+
+
 .background {
 background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
 background-repeat: no-repeat;
