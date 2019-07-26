@@ -1,6 +1,4 @@
 
-window.onload= function (){
-  // var socialPro = document.getElementsByClassName("this_socialLinks");
 
 
 
@@ -15,5 +13,3 @@ window.onload= function (){
     document.getElementsByClassName('container_overlay')[0].style.visibility = 'hidden';
 
   });
-
-}
