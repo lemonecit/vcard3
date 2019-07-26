@@ -697,13 +697,21 @@ display: inline;
 
 
   .container_overlay .sociallinks {
+    text-align: center;
   display: block;
   float:right;
-  width:255px;
+  /* width:255px; */
   height:100%;
 
   }
 
+
+.container_overlay ul {
+
+margin:0;
+padding:0;
+
+}
 
 
   .container_overlay ul.sLink li {
@@ -721,7 +729,7 @@ display: inline;
 
 
 
-.container_overlay .slink a {
+.container_overlay .slink li a {
 
 text-decoration: none;
 
