@@ -670,8 +670,6 @@ display: inline;
 
   }
 
-
-
   ul.sLink li {
       line-height: 65px;
       display: block;
@@ -721,7 +719,7 @@ display: inline;
   }
 
 
-.container_overlay .sociallinks {
+  .container_overlay .sociallinks {
   display: block;
   float:right;
   width:252px;
