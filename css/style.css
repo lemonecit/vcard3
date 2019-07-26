@@ -644,7 +644,7 @@ display: inline;
   }
 
 
-  .sociallinks {
+  .profile_content .sociallinks {
     display: flex;
        justify-content: center; /* center ul horizontally */
        align-items: center; /* center ul vertically (if necessary) */
@@ -652,19 +652,19 @@ display: inline;
 
   }
 
-  .sociallinks ul {
+  .profile_content .sociallinks ul {
 
     margin:0;
     padding:0;
   }
 
-  .sociallinks ul li {
+  .profile_content .sociallinks ul li {
 
   display: inline;
 
   }
 
-  .sociallinks i {
+  .profile_content .sociallinks i {
   letter-spacing: 1em;
   color:#5a5050;
 
