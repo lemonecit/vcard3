@@ -1,9 +1,7 @@
 
 
 
-var element = document.createElement("div");
-element.id = 'testqq';
-var el = document.getElementById('testqq'); //
+
 
 
 
@@ -15,7 +13,7 @@ var el = document.getElementById('testqq'); //
 
    var element = document.createElement("div");
    element.id = 'closeWindow';
-   var el = document.getElementById('testqq'); //
+   var el = document.getElementById('closeWindow'); //
 
       el.addEventListener("click", function(){
          document.getElementsByClassName('container_overlay')[0].style.visibility = 'hidden';
