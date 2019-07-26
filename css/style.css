@@ -38,7 +38,7 @@ grid-template-areas:
 }
 
 .logo {
-
+float:left;
 grid-area: logoname;
 
 }
@@ -53,7 +53,7 @@ grid-area: logoname;
 
 }
 
-.info {
+.lang_selection {
 
 grid-area: info;
 
@@ -269,7 +269,6 @@ display: inline;
 
 
 }
-
 
 
 
