@@ -209,6 +209,7 @@ grid-area:row4;
 }
 
 .profile_face {
+      border: 1px solid greenyellow;
 width:125px;
 border-radius: 50%;
 
@@ -529,6 +530,7 @@ display: inline;
   }
 
   .profile_face {
+        border: 1px solid greenyellow;
   width:125px;
   border-radius: 50%;
 
