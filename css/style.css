@@ -386,6 +386,10 @@ display: inline;
 
 }
 
+.navigation a {
+  text-decoration: none;
+}
+
 
 
 }
@@ -788,6 +792,11 @@ text-decoration: none;
     font-size: 20px;
 
 
+  }
+
+
+  .navigation a {
+    text-decoration: none;
   }
 
 
